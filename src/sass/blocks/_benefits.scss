@@ -1,5 +1,4 @@
 .benefits {
-    min-height: 470px;
     padding: 70px 0 80px 0;
     background-color: #f6f6f6;
     &__wrapper {
@@ -14,16 +13,17 @@
         align-items: center;
     }
     &__subtitle {
+        margin-top: 38px;
         color: #0d0d0d;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 700;
     }
     &__text {
         margin-top: 26px;
         color: #0d0d0d;
         text-align: center;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 300;
         a { 
             text-decoration: underline;
             color: #ff0000;
