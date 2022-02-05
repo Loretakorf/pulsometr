@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
-    .container {
-        max-width: 900px;
+    .promo {
+        width: 100%;
     }
 }
 @media (max-width: 991px) {
@@ -34,21 +34,28 @@
             font-size: 15px;
         }
         &_submit {
-            height: 51px;
+            height: 45px;
             font-size: 15px;
+            width: 270px;
         }
    }
    .benefits {
-       padding: 50px 0 60px 0;
+       padding: 50px 0 80px 0;
        min-height: 350px;
        &__wrapper {
-           margin-top: 40px;
+           margin-top: 25px;
+       }
+       &__item {
+           margin: 0 7px;
+
        }
        &__subtitle {
            font-size: 16px;
+           margin-top: 25px;
        }
        &__text {
-           font-size: 12px;
+           font-size: 15px;
+           line-height: normal;
        }
    }
    .title {
@@ -67,6 +74,21 @@
            height: 45px;
        }
    }
+   .carousel {
+       &__inner {
+           img {
+               width: 85%;
+           }
+       }
+   }
+   .slick-prev, .slick-nex {
+    img {
+        width: 21px;
+        height: 35px;
+    }
+
+   }
+   
 }
 @media (max-width: 767px) {
     .container {
@@ -153,9 +175,7 @@
     }
 }
 @media (max-width: 575px) {
-    .container {
-        max-width: 350px;
-    }
+  
     .promo {
         padding: 21px 0 44px 0;
         &__wrapper {
