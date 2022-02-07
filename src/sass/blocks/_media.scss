@@ -4,9 +4,6 @@
     }
 }
 @media (max-width: 991px) {
-    .container {
-        max-width: 700px;
-    }
     .promo {
         min-height: 450px;
         padding: 21px 0 70px 0;
@@ -39,63 +36,54 @@
             width: 270px;
         }
    }
-   .benefits {
-       padding: 50px 0 80px 0;
-       min-height: 350px;
-       &__wrapper {
-           margin-top: 25px;
-       }
-       &__item {
-           margin: 0 7px;
+    .benefits {
+        padding: 50px 0 80px 0;
+        min-height: 350px;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__item {
+            margin: 0 7px;
 
-       }
-       &__subtitle {
-           font-size: 16px;
-           margin-top: 25px;
-       }
-       &__text {
-           font-size: 15px;
-           line-height: normal;
-       }
-   }
-   .title {
-       font-size: 25px;
-   }
-   .consultation {
-       min-height: 450px;
-       padding: 65px 0 85px 0;
-       &__descr {
-           margin-top: 50px;
-       }
-   }
-   .feed-form {
-       width: 270px;
-       input {
-           height: 45px;
-       }
-   }
-   .carousel {
-       &__inner {
-           img {
-               width: 85%;
-           }
-       }
-   }
-   .slick-prev, .slick-nex {
-    img {
-        width: 21px;
-        height: 35px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            margin-top: 25px;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: normal;
+        }
     }
-
-   }
+    .title {
+        font-size: 25px;
+    }
+    .consultation {
+        min-height: 450px;
+        padding: 65px 0 85px 0;
+        &__descr {
+            margin-top: 50px;
+        }
+    }
+    .feed-form {
+        width: 270px;
+        input {
+            height: 45px;
+        }
+    }
+    .feed {
+        &__item {
+            img {
+               padding-left: 35px;
+            }
+        }
+      
+    }
    
 }
 @media (max-width: 767px) {
-    .container {
-        max-width: 500px;
-    }
     .promo {
-        padding: 21px 0 50px 0;
+        padding: 21px 29px 50px 29px;
         &__wrapper {
             margin-top: 28px;
         }
@@ -141,15 +129,15 @@
         }
     }
     .benefits {
-        padding: 36px 0 47px 0;
+        padding: 36px 29px 71px 29px;
         &__wrapper {
-            margin-top: 30px;
+            margin-top: 20px;
         }
         &__item {
-            max-width: 174px;
+            max-width: 220px;
         }
         &__subtitle {
-            font-size: 15px;
+            margin-top: 10px;
         }
         &__text {
             margin-top: 21px;
@@ -160,7 +148,7 @@
         font-weight: 600;
     }
     .consultation {
-        padding: 50px 0 70px 0;
+        padding: 36px 0 70px 29px;
         &__descr {
             margin-top: 24px;
             font-size: 18px;
@@ -173,9 +161,35 @@
             font-size: 12px;
         }
     }
+    .carousel {
+        &__inner {
+            img {
+                width: 100%;
+                padding: 0 59px;
+            }
+        }
+
+    }
+    .catalog {
+        padding: 25px 29px;
+        &__tabs {
+            margin-top: 56px;
+        }
+       
+    }
+       
+    .feed {
+        &__item {
+            margin-top: 33px;
+            
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
 }
 @media (max-width: 575px) {
-  
     .promo {
         padding: 21px 0 44px 0;
         &__wrapper {
@@ -245,6 +259,16 @@
     }
     .feed-form {
         margin: 33px 70px;
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 50px;
+        }
+        &__tab {
+            width: 92px;
+            height: 35px;
+            padding-top: 8px;
+        }
     }
     
 }
