@@ -138,6 +138,7 @@
         }
         &__subtitle {
             margin-top: 10px;
+            text-align: center;
         }
         &__text {
             margin-top: 21px;
@@ -162,116 +163,35 @@
         }
     }
     .carousel {
+        padding: 60px 21px;
         &__inner {
             img {
                 width: 100%;
-                padding: 0 59px;
             }
         }
-
     }
     .catalog {
-        padding: 25px 29px;
-        &__tabs {
-            margin-top: 56px;
-        }
-       
-    }
-       
-    .feed {
-        &__item {
-            margin-top: 33px;
-            
-        }
-        &__text {
-            font-size: 15px;
-            line-height: 18px;
+        &__inner {
+            justify-content: space-around;
         }
     }
 }
 @media (max-width: 575px) {
     .promo {
-        padding: 21px 0 44px 0;
-        &__wrapper {
-            align-items: center;
-        }
-        &__header {
-            font-size: 26px;
-        }
-        &__subheader {
-            font-size: 16px;
-        }
-    }
-    .header {
-        &__phone {
-            font-size: 11px;
-            font-weight: 500;
+        min-height: 400px;
+        padding: 28px 0 35px 0;
+        &__icons {
+            display: none;
+            &__header {
+                font-size: 24px;
+                text-align: center;
+            }
+            &__subheader {
+                text-align: center;
+            }
         }
     }
-    .button {
-        width: 95px;
-        height: 21px;
-        font-size: 8px;
-        margin: 3px 0 0 5px;
-        &_main {
-            width: 200px;
-            height: 36px;
-            font-size: 12px;
-            margin-top: 50px;
-        }
-        &_submit {
-            width: 200px;
-            height: 40px;
-            margin: auto;
-            font-size: 11px;
-
-        }
-        
-    }
-    .benefits {
-        padding: 36px 0 28px 0;
-        &__wrapper {
-            flex-direction: column;
-            align-items: center;
-            margin-top: 19px;
-        }
-        &__item {
-            max-width: 300px;
-        }
-        &__subtitle {
-            font-size: 18px;
-            text-align: center;
-            margin-top: 2px;
-        }
-        &__text {
-            margin: 13px 0;
-        }
-    }
-    .consultation {
-        padding: 50px 29px 70px 29px;
-        &__descr {
-            font-size: 16px;
-            text-align: center;
-        }
-    }
-    .title {
-        font-size: 18px;
-        text-align: center;
-    }
-    .feed-form {
-        margin: 33px 70px;
-    }
-    .catalog {
-        &__tabs {
-            margin-top: 50px;
-        }
-        &__tab {
-            width: 92px;
-            height: 35px;
-            padding-top: 8px;
-        }
-    }
-    
 }
+
 
       

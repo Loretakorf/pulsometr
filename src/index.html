@@ -64,7 +64,7 @@
         <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2> 
         <div class="benefits__wrapper">
           <div class="benefits__item">
-            <img src="icons/second_screen/cup.png" alt="cup">
+            <img src="icons/second_screen/cup.png" alt="cup" class="benefits__icon">
               <div class="benefits__subtitle">
                 Делимся опытом
               </div>
@@ -73,7 +73,7 @@
               </div>
           </div>
           <div class="benefits__item">
-              <img src="icons/second_screen/heart.png" alt="heart">
+              <img src="icons/second_screen/heart.png" alt="heart" class="benefits__icon">
               <div class="benefits__subtitle">
                 Заботимся о здоровье
               </div>
@@ -83,7 +83,7 @@
               </div>
           </div>
             <div class="benefits__item">
-              <img src="icons/second_screen/shoe.png" alt="shoe">
+              <img src="icons/second_screen/shoe.png" alt="shoe" class="benefits__icon">
               <div class="benefits__subtitle">
                 Учим бегать
               </div>
@@ -106,10 +106,10 @@
           Просто заполните форму заявки<br> 
           и мы перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="#">
+        <form id="consultation-form" class="feed-form" action="#">
           <input name="name" required placeholder="Ваше имя" type="text">
-          <input name="phone"  required placeholder="Ваш телефон" type="number">
-          <input name="email"  required placeholder="Ваш E-mail" type="email">
+          <input name="phone" requered placeholder="Ваш телефон" type="number">
+          <input name="email" required placeholder="Ваш E-mail" type="email">
           <button class="button button_submit">Заказать консультацию</button>
         </form>
       </div>
@@ -128,8 +128,7 @@
           <img src="img/pulse_3.png" alt="pulse">
         </div>
       </div>
-    <!-- <button type="button" class="prev"><img src="icons/left.png"></button>
-      <button type="button" class="next"><img src="icons/right.png"></button>--> 
+    
     </div>
 
     </section>
@@ -448,8 +447,8 @@
           <a href="#" class="footer__social-item"><img src="icons/footer_screen/insta.png" alt="instagram"></a>
           <a href="#" class="footer__social-item"><img src="icons/footer_screen/pint.png" alt="pinterest"></a>
         </div>
-        </div>
       </div>
+      
     </footer>
     <div class="overlay">
       <div class="modal" id="consultation">
@@ -459,8 +458,8 @@
         <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
         <form class="feed-form feed-form_mt25" action="#">
           <input name="name" required placeholder="Ваше имя" type="text">
-          <input name="phone"  required placeholder="Ваш телефон" type="number">
-          <input name="email"  required placeholder="Ваш E-mail" type="email">
+          <input name="phone" required placeholder="Ваш телефон" type="number">
+          <input name="email" required placeholder="Ваш E-mail" type="email">
           <button class="button button_submit">Заказать консультацию</button>
         </form>
       </div> 
@@ -471,8 +470,8 @@
         <div class="modal__descr">Пульсометр Polar FT1</div>
         <form class="feed-form feed-form_mt25" action="#">
           <input name="name" required placeholder="Ваше имя" type="text">
-          <input name="phone"  required placeholder="Ваш телефон" type="number">
-          <input name="email"  required placeholder="Ваш E-mail" type="email">
+          <input name="phone" requered placeholder="Ваш телефон" type="number">
+          <input name="email" requered placeholder="Ваш E-mail" type="email">
           <button class="button button_submit">Купить</button>
         </form>
       </div> 
@@ -490,7 +489,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>-->
-  
+      <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
