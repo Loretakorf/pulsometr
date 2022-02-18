@@ -6,7 +6,7 @@
 @media (max-width: 991px) {
     .promo {
         min-height: 450px;
-        padding: 21px 0 70px 0;
+        padding: 21px 20px 70px 20px;
         &__wrapper {
             margin-top: 40px;
         }
@@ -37,8 +37,8 @@
         }
    }
     .benefits {
-        padding: 50px 0 80px 0;
-        min-height: 350px;
+        padding: 50px 20px 80px 20px;
+        min-height: 450px;
         &__wrapper {
             margin-top: 25px;
         }
@@ -60,8 +60,24 @@
     }
     .consultation {
         min-height: 450px;
-        padding: 65px 0 85px 0;
+        padding: 65px 20px 85px 20px;
         &__descr {
+            margin-top: 50px;
+        }
+    }
+    .carousel {
+        padding: 50px 20px;
+        .slick-prev, .slick-next  {
+            left: -23px;
+           
+            img {
+                width: 21px;
+                height: 30px;
+            }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__tabs {
             margin-top: 50px;
         }
     }
@@ -195,3 +211,4 @@
 
 
       
+}
