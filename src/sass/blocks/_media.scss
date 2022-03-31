@@ -31,11 +31,10 @@
             font-size: 15px;
         }
         &_submit {
-            height: 45px;
-            font-size: 15px;
-            width: 270px;
+            width: 300px;
+            height: 50px;
         }
-   }
+    }
     .benefits {
         padding: 50px 20px 80px 20px;
         min-height: 450px;
@@ -66,149 +65,7 @@
         }
     }
     .carousel {
-        padding: 50px 20px;
-        .slick-prev, .slick-next  {
-            left: -23px;
-           
-            img {
-                width: 21px;
-                height: 30px;
-            }
+        padding: 60px 20px;
     }
-    .catalog {
-        padding-bottom: 50px;
-        &__tabs {
-            margin-top: 50px;
-        }
-    }
-    .feed-form {
-        width: 270px;
-        input {
-            height: 45px;
-        }
-    }
-    .feed {
-        &__item {
-            img {
-               padding-left: 35px;
-            }
-        }
+}
       
-    }
-   
-}
-@media (max-width: 767px) {
-    .promo {
-        padding: 21px 29px 50px 29px;
-        &__wrapper {
-            margin-top: 28px;
-        }
-        &__header {
-            font-size: 28px;
-            font-weight: 600;
-        }
-        &__subheader {
-            font-size: 18px; 
-            margin-top: 8px;
-            line-height: 15px;
-        }
-        &__icons {
-            margin-top: 39px;
-            width: 310px;
-        }
-        &__link {
-            font-size: 12px;
-            margin-top: 15px;
-        }
-    }
-    .header {
-        &__official {
-            display: none;
-        }
-        &__phone {
-            font-size: 16px;
-        }
-    }
-    .button {
-        height: 25px;
-        font-size: 10px;
-        &_main {
-            width: 200px;
-            height: 36px;
-            font-size: 12px;
-            margin-top: 50px;
-        }
-        &_submit {
-            width: 200px;
-            height: 40px;
-            font-size: 12px;
-        }
-    }
-    .benefits {
-        padding: 36px 29px 71px 29px;
-        &__wrapper {
-            margin-top: 20px;
-        }
-        &__item {
-            max-width: 220px;
-        }
-        &__subtitle {
-            margin-top: 10px;
-            text-align: center;
-        }
-        &__text {
-            margin-top: 21px;
-        }
-    }
-    .title {
-        font-size: 20px;
-        font-weight: 600;
-    }
-    .consultation {
-        padding: 36px 0 70px 29px;
-        &__descr {
-            margin-top: 24px;
-            font-size: 18px;
-        }
-    }
-    .feed-form {
-        width: 200px;
-        input {
-            height: 40px;
-            font-size: 12px;
-        }
-    }
-    .carousel {
-        padding: 60px 21px;
-        &__inner {
-            img {
-                width: 100%;
-            }
-        }
-    }
-    .catalog {
-        &__inner {
-            justify-content: space-around;
-        }
-    }
-}
-@media (max-width: 575px) {
-    .promo {
-        min-height: 400px;
-        padding: 28px 0 35px 0;
-        &__icons {
-            display: none;
-            &__header {
-                font-size: 24px;
-                text-align: center;
-            }
-            &__subheader {
-                text-align: center;
-            }
-        }
-    }
-}
-
-
-      
-}
